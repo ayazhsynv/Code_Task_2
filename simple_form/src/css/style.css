@@ -1,3 +1,69 @@
 * {
     box-sizing: border-box;
 }
+
+#login {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 10px auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_part {
+    width: 100%;
+}
+.top_part h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 40px;
+}
+
+.top_part table {
+    width: 100%;
+    border: 2px solid #999;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+.top_part table th {
+    border: 2px solid #999;
+    padding: 20px 10px 20px 10px;
+}
+
+.middle_part {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 40px;
+}
+
+.middle_part .left {
+    width: 33%;
+    padding: 20px;
+    border: black 2px solid;
+}
+
+.middle_part .center {
+    width: 34%;
+    padding: 20px;
+    border: black 2px solid;
+}
+
+.middle_part .right {
+    width: 33%;
+    padding: 20px;
+    border: black 2px solid;
+}
